@@ -1,0 +1,6 @@
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\bin\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\obj\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_1\calculadora\Entidades\obj\Debug\Entidades.pdb
