@@ -28,7 +28,7 @@ namespace MiCalculadora
         private void btnConvertirBinario_Click(object sender, EventArgs e)
         {
             string binario = this.lbResultado.Text;
-            if(binario == "......")
+            if(binario == "Resultado")
             {
                 this.lbResultado.Text = binario;
             }
@@ -44,12 +44,16 @@ namespace MiCalculadora
         {
             string numeroDecimal = this.lbResultado.Text;
 
-            if(numeroDecimal == "......")
+            if(numeroDecimal == "Resultado")
             {
                 this.lbResultado.Text = numeroDecimal;
             }
-            numeroDecimal = Numero.BinarioDecimal(numeroDecimal);
-            this.lbResultado.Text = numeroDecimal;
+            else
+            {
+                numeroDecimal = Numero.BinarioDecimal(numeroDecimal);
+                this.lbResultado.Text = numeroDecimal;
+            }
+
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -80,7 +84,7 @@ namespace MiCalculadora
              this.textNumero2.Clear();
              this.cmdOperadores.ResetText();
              this.cmdOperadores.Text = null;
-             this.lbResultado.Text = ".....";
+             this.lbResultado.Text = "Resultado";
 
          }
         /// <summary>
@@ -99,6 +103,7 @@ namespace MiCalculadora
 
             return resultado;
          }
+
         
     }
 }

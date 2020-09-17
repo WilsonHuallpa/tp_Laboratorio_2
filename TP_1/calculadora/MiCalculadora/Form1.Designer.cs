@@ -106,11 +106,11 @@
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Location = new System.Drawing.Point(292, 41);
+            this.lbResultado.Location = new System.Drawing.Point(236, 33);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(25, 13);
+            this.lbResultado.Size = new System.Drawing.Size(55, 13);
             this.lbResultado.TabIndex = 4565;
-            this.lbResultado.Text = "......";
+            this.lbResultado.Text = "Resultado";
             // 
             // cmdOperadores
             // 

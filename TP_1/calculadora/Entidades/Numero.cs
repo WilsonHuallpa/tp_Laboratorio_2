@@ -49,9 +49,10 @@ namespace Entidades
         /// <returns>Numero convertido en decimal</returns>
         public static string BinarioDecimal(string binario)
         {
-            double numero = 0;
+            int numero = 0;
             string resultado = "Valor invalido";
             char[] list = binario.ToCharArray();
+
             Array.Reverse(list);
 
             if (EsBinario(binario))
@@ -60,7 +61,7 @@ namespace Entidades
                 {
                     if (list[i] == '1')
                     {
-                        numero = Math.Pow(2, i);
+                        numero += (int)Math.Pow(2, i);
                     }
                 }
 
@@ -112,12 +113,18 @@ namespace Entidades
         public static string DecimalBinario(string numero)
         {
             string binario;
-            if (!(numero is null))
+            double validar;
+            if(double.TryParse(numero, out validar))
             {
                 binario = DecimalBinario(Convert.ToDouble(numero));
                 return binario;
             }
-            return "invalido";
+            else
+            {
+                return "Valor invalido";
+            }
+                
+            
         }
         /// <summary>
         /// valida si un numero es binario
@@ -129,18 +136,15 @@ namespace Entidades
 
             char[] array = binario.ToCharArray();
 
-            if (!(binario is null))
+            
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int i = 0; i < array.Length; i++)
+                if (array[i] != '0' && array[i] != '1')
                 {
-                    if (array[i] != '0' && array[i] != '1')
-                    {
                         return false;
                      
-                    }
                 }
-
-            } 
+            }
 
             return true ;
         }
@@ -172,11 +176,15 @@ namespace Entidades
         /// <returns>la divicion de los elementos</returns>
         public static double operator / (Numero num1, Numero num2)
         {
-            if (num2.numero > 0 )
+            if (num2.numero == 0 )
+            {
+                return double.MinValue;
+            }
+            else
             {
                 return num1.numero / num1.numero;
             }
-            return double.MinValue;
+           
         }
         /// <summary>
         /// suma dos objeto de tipo Numero

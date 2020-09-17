@@ -47,11 +47,15 @@ namespace Entidades
         /// <returns>retorna el operador validado</returns>
         private static string ValidarOperador(char operador)
         {
-            string retorno = "+";
+            string retorno ;
 
             if ( operador == '+' || operador == '-' || operador == '/' || operador == '*')
             {
                 retorno =  Convert.ToString(operador);
+            }
+            else
+            {
+                retorno = "+";
             }
 
             return retorno;
