@@ -30,7 +30,7 @@ namespace Entidades
         /// constructor parametrizado
         /// </summary>
         /// <param name="numero">Recibe por paramero un numero tipo double</param>
-        public Numero(double numero)
+        public Numero(double numero): this()
         {
             this.numero = numero;
         }
@@ -182,7 +182,7 @@ namespace Entidades
             }
             else
             {
-                return num1.numero / num1.numero;
+                return num1.numero / num2.numero;
             }
            
         }
