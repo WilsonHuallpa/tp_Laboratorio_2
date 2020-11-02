@@ -7,7 +7,7 @@ using Excepciones;
 using Clases_Instanciables;
 using EntidadesAbstractas = Clases_Abstractas;
 
-namespace Trabajo.Practico._3
+namespace Main
 {
     class Program
     {

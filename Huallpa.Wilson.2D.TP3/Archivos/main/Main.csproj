@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6891AF17-BA43-4C09-82CC-E0DA30FF3894}</ProjectGuid>
+    <ProjectGuid>{E8CCCD69-6A35-4931-8280-C0304AAA23CD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Trabajo.Practico._3</RootNamespace>
-    <AssemblyName>Trabajo.Practico.3</AssemblyName>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
