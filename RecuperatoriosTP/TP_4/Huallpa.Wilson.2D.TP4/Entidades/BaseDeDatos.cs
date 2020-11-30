@@ -84,7 +84,7 @@ namespace Entidades
         /// <returns>true si agrego correctamen, si no false.</returns>
         public static bool InsertaProducto(Producto p)
         {
-            string sql = "Insert into Productos(codigo, descripcion, tipo, stock, precio) " +
+            string sql = "Insert into Productos(Codigo, Descripcion, Tipo, Stock, Precio) " +
                          "values(@auxcodigo, @auxdecripcion, @auxtipo, @auxstock, @auxprecio)";
 
             comando.Parameters.Add(new SqlParameter("@auxcodigo", p.Codigo));
@@ -138,17 +138,18 @@ namespace Entidades
             bool todoOk = false;
             try
             {
-                BaseDeDatos.comando.CommandText = sql;
+                comando.CommandText = sql;
 
-                BaseDeDatos.conexion.Open();
+                conexion.Open();
 
-                BaseDeDatos.comando.ExecuteNonQuery();
+                comando.ExecuteNonQuery();
 
                 todoOk = true;
             }
             catch (Exception e)
             {
                 todoOk = false;
+                //throw new BaseDeDatoException("Error de Base de datos" + e.Message);
             }
             finally
             {

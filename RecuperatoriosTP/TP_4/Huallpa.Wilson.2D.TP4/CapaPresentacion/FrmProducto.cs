@@ -25,12 +25,13 @@ namespace CapaPresentacion
 
             miEvento += CargaDgv;
             miEvento += Cargarcombo;
-
+            miEvento += CargaLisbox;
         }
+
         private void FrmProducto_Load(object sender, EventArgs e)
         {
+            //Inventario.Iniciar();
             miEvento.Invoke();
-            CargaLisbox();
         }
         private void btnAgregarFila_Click(object sender, EventArgs e)
         {
@@ -63,15 +64,10 @@ namespace CapaPresentacion
 
                 if (Inventario.ListaProductos + auxProducto )
                 {
-                    if (BaseDeDatos.InsertaProducto(auxProducto))
-                    {
-                        MessageBox.Show("Producto cargado con exitos", Inventario.NombreComercio);
-                        MessageBox.Show(auxProducto.Mostrar(), Inventario.NombreComercio);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Error al guardar en sql", Inventario.NombreComercio);
-                    }
+                  
+                     MessageBox.Show("Producto cargado con exitos", Inventario.NombreComercio);
+                     MessageBox.Show(auxProducto.Mostrar(), Inventario.NombreComercio);
+                  
                 }
                 else
                 {
@@ -89,34 +85,46 @@ namespace CapaPresentacion
             }
             finally
             {
+                miEvento.Invoke();
                 this.Limpiar();
-                CargaDgv();
+                
             }
         }
       
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Producto auxProducto;
-
-            auxProducto = (Producto)this.LisEliminar.SelectedItem;
-
-            if(MessageBox.Show("Seguro que quieres eliminar?",Inventario.NombreComercio, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            try
             {
-                if (BaseDeDatos.EliminarProductos(auxProducto))
+                auxProducto = (Producto)this.LisEliminar.SelectedItem;
+
+                if (MessageBox.Show("Seguro que quieres eliminar?", Inventario.NombreComercio, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     if (Inventario.ListaProductos - auxProducto)
                     {
-                        MessageBox.Show("Se elimino correctamente",Inventario.NombreComercio);
-                        CargaDgv();
-                        CargaLisbox();
+                         MessageBox.Show("Se elimino correctamente", Inventario.NombreComercio);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error en la base de datos", Inventario.NombreComercio);
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Error en la base de datos", Inventario.NombreComercio);
-                }
             }
+            catch(BaseDeDatoException bd)
+            {
+                MessageBox.Show(bd.Message);
+            }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.Message);
+            }
+            finally
+            {
+                miEvento.Invoke();
+            } 
         }
+
+
 
 
         private void Limpiar()
@@ -144,5 +152,6 @@ namespace CapaPresentacion
             this.LisEliminar.DataSource = Inventario.ListaProductos;
             this.LisEliminar.DisplayMember = "Descripcion";
         }
+       
     }
 }

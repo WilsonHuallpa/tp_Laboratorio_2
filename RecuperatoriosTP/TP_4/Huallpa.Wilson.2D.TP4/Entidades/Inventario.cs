@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-
+using ManejoExcepciones;
 namespace Entidades
 {
     public delegate void MiInventario();
-    //public delegate void FuncionesVenta();
+
     public static class Inventario
     {
         #region Campos
@@ -29,7 +29,7 @@ namespace Entidades
             listaventas = new List<Venta>();
 
             CargaDedatos += BaseDeDatos.GetProductos;
-            CargaDedatos += LeerVentasRealizadas;
+            CargaDedatos += LeerVentas;
 
         }
         #endregion
@@ -55,24 +55,6 @@ namespace Entidades
         #region Metodos
 
         /// <summary>
-        /// Valida si el valor de stock solicitado es menor al disponible.
-        /// </summary>
-        /// <param name="idProducto"> id del producto.</param>
-        /// <param name="auxCantidad">Cantidad sugerida</param>
-        /// <returns>true si auxcantidad es menor o igual al stock de producto.</returns>
-        //public static bool ValidarCantidad(int idProducto, int auxCantidad)
-        //{
-        //    for (int i = 0; i < ListaProductos.Count; i++)
-        //    {
-        //        if (ListaProductos[i].Codigo == idProducto && ListaProductos[i].Stock >= auxCantidad)
-        //        {
-        //            return true;
-        //        }
-        //    }
-        //    return false;
-        //}
-
-        /// <summary>
         /// Guarda el listado de ventas en archivo XML
         /// </summary>
         /// <param name="inv"></param>
@@ -90,7 +72,7 @@ namespace Entidades
         /// Lee el listado de ventas guardado en un archivo XML
         /// </summary>
         /// <returns>una lista de tipo List<Venta></returns>
-        public static void LeerVentasRealizadas()
+        public static void LeerVentas()
         {
             List<Venta> datos = new List<Venta>();
             string path = String.Concat(AppDomain.CurrentDomain.BaseDirectory, "Ventas.xml");
@@ -109,30 +91,33 @@ namespace Entidades
         /// Carga productos al carrito de compras.
         /// </summary>
         /// <returns>Un lista de todo los productos cargados </returns>
-        private static List<Carrito> GeneraCarrito()
+        public static List<Carrito> GeneraCarrito(List<Producto> pro)
         {
-            List<Carrito> auxlista = new List<Carrito>();
-
+            List<Carrito> auxlista = null;
             Random nRand = new Random(DateTime.Now.Millisecond);
-
             int index;
-
             int cantProducto = nRand.Next(1, 3);
 
-            while (cantProducto > 0)
+            if(pro != null)
             {
-                index = nRand.Next(0,listaProductos.Count);
+                auxlista = new List<Carrito>();
 
-                if (ListaProductos[index].Stock >= 2)
+                while (cantProducto > 0)
                 {
-                    for (int i = 0; i < 2; i++)
+                    index = nRand.Next(0, pro.Count);
+
+                    if (pro[index].Stock >= 2)
                     {
-                      auxlista.Add(new Carrito(listaProductos[index].Descripcion, listaProductos[index].Precio, listaProductos[index].Codigo));
+                        for (int i = 0; i < 2; i++)
+                        {
+                            auxlista.Add(new Carrito(pro[index].Descripcion, pro[index].Precio, pro[index].Codigo));
+                        }
+                        pro[index].Stock -= 2;
+                        cantProducto--;
                     }
-                    listaProductos[index].Stock -= 2;
-                    cantProducto--;
-                }     
+                }
             }
+            
             return auxlista;
         }
 
@@ -147,30 +132,33 @@ namespace Entidades
             try
             {
                 do {
-                    lisCarrito = GeneraCarrito();
+                    lisCarrito = GeneraCarrito(listaProductos);
 
                     if (lisCarrito != null)
                     {
-
                         Thread.Sleep(2000);
+
                         auxVenta = new Venta("_01", lisCarrito);
-
-                        listaventas.Add(auxVenta);
-
-                        Console.ForegroundColor = ConsoleColor.Blue;
-
-                        Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: { auxVenta.TicketNro}");
 
                         if (Venta.PrintTicket(auxVenta))
                         {
+                            listaventas.Add(auxVenta);
+
+                            Console.ForegroundColor = ConsoleColor.Blue;
+
+                            Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: { auxVenta.TicketNro}");
+
                             Console.WriteLine("Se genero un ticke de el {0}.txt ", auxVenta.TicketNro);
                         }
-                       
                         i++;
                     }
                 } while (i < 3);
                 
 
+            }
+            catch(ArchivosException ar)
+            {
+                Console.WriteLine(ar.Message);
             }
             catch (Exception ex)
             {
@@ -191,16 +179,18 @@ namespace Entidades
             {
                 do
                 {
-                    lisCarrito = GeneraCarrito();
+                    lisCarrito = GeneraCarrito(listaProductos);
 
                     if (lisCarrito != null)
                     {
-                        Thread.Sleep(1000);
+                        Thread.Sleep(1500);
 
                         auxVenta = new Venta("_02", lisCarrito);
 
-                        if (CargarVenta(auxVenta) && Venta.PrintTicket(auxVenta))
+                        if (Venta.PrintTicket(auxVenta))
                         {
+                            listaventas.Add(auxVenta);
+
                             Console.ForegroundColor = ConsoleColor.Blue;
 
                             Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: { auxVenta.TicketNro}");
@@ -213,26 +203,14 @@ namespace Entidades
                 } while (i < 3);
                
             }
+            catch (ArchivosException ar)
+            {
+                Console.WriteLine(ar.Message);
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-        }
-
-        /// <summary>
-        /// Agrega una nueva venta a la lista de inventario
-        /// </summary>
-        /// <param name="venta"></param>
-        /// <returns>true si se cargo, false caso contrario</returns>
-        public static bool CargarVenta(Venta venta)
-        {
-            if (venta != null)
-            {
-                Inventario.listaventas.Add(venta);
-                return true;
-            }
-
-            return false;
         }
 
         /// <summary>

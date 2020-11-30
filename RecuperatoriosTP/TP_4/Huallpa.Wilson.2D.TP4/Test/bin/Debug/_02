@@ -96,3 +96,103 @@ Descripcion: fernet Precio: $ 130,00
 Monto total: $ 400,00
 ********************************************
 
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:29
+Descripcion: leche Precio: $ 100,00
+Descripcion: leche Precio: $ 100,00
+Monto total: $ 200,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:30
+Descripcion: fernet Precio: $ 130,00
+Descripcion: fernet Precio: $ 130,00
+Descripcion: fernet Precio: $ 130,00
+Descripcion: fernet Precio: $ 130,00
+Monto total: $ 520,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:30
+Descripcion: trapo Precio: $ 22,00
+Descripcion: trapo Precio: $ 22,00
+Descripcion: lavandina Precio: $ 32,00
+Descripcion: lavandina Precio: $ 32,00
+Monto total: $ 108,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:48
+Descripcion: andes Precio: $ 70,00
+Descripcion: andes Precio: $ 70,00
+Descripcion: lavandina Precio: $ 32,00
+Descripcion: lavandina Precio: $ 32,00
+Monto total: $ 204,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:48
+Descripcion: escoba Precio: $ 32,00
+Descripcion: escoba Precio: $ 32,00
+Descripcion: fernet Precio: $ 130,00
+Descripcion: fernet Precio: $ 130,00
+Monto total: $ 324,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:48
+Descripcion: lavandina Precio: $ 32,00
+Descripcion: lavandina Precio: $ 32,00
+Monto total: $ 64,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:53
+Descripcion: cepillo Precio: $ 22,00
+Descripcion: cepillo Precio: $ 22,00
+Monto total: $ 44,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:53
+Descripcion: cepillo Precio: $ 22,00
+Descripcion: cepillo Precio: $ 22,00
+Descripcion: gancia Precio: $ 45,00
+Descripcion: gancia Precio: $ 45,00
+Monto total: $ 134,00
+********************************************
+
+********************************************
+****************FACTURA: _02****************
+********************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 08:53
+Descripcion: escoba Precio: $ 32,00
+Descripcion: escoba Precio: $ 32,00
+Monto total: $ 64,00
+********************************************
+

@@ -32,11 +32,9 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("PRODUCTO NO PERECEDERO");
-            sb.AppendLine("---------------------------------------------------------");
+            sb.AppendLine("*********************************************************");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("---------------------------------------------------------");
-            sb.AppendLine("Este producto puede ser conservado a temperatura ambiente");
-
+            sb.AppendLine("*********************************************************");
             return sb.ToString();
         }
 

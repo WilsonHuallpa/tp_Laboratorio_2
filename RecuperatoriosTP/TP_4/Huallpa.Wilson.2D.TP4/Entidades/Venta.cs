@@ -16,9 +16,7 @@ namespace Entidades
         List<Carrito> listaProducto;
         double montoTotal;
         #endregion
-        /// <summary>
-        /// Constructor estatico. Asocia los metodos al delegado.
-        /// </summary>
+  
         #region Constructor
         /// <summary>
         /// Constructor por defecto

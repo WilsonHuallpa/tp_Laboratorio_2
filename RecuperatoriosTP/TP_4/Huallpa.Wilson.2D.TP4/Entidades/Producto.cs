@@ -8,10 +8,6 @@ using ManejoExcepciones;
 
 namespace Entidades
 {
-    //[Serializable]
-    //[XmlInclude(typeof(ProductoNoPerecedero))]
-    //[XmlInclude(typeof(ProductoPerecedero))]
-
     public abstract class Producto
     {
         #region campos
@@ -177,23 +173,27 @@ namespace Entidades
 
             return retorno;
         }
+        
+        /// <summary>
+        /// Verifica si un producto no esta cargado en la base de datos y lo elimina
+        /// </summary>
+        /// <param name="productos"></param>
+        /// <param name="auxProducto"></param>
+        /// <returns>true si se logro eliminar correctamente</returns>
         public static bool operator - (List<Producto> listaProductos, Producto auxProducto)
         {
-      
-            foreach (Producto v in listaProductos)
-            {
-                if (v == auxProducto)
-                {
-                    listaProductos.Remove(v);
-                    return true;
-                }
-            }
 
+            if (listaProductos == auxProducto)
+            {
+                listaProductos.Remove(auxProducto);
+                BaseDeDatos.EliminarProductos(auxProducto);
+                return true;
+            }
             return false;
         }
         #endregion
 
-        #region metodo
+        #region metodos
         /// <summary>
         /// Genera un stringbuilder con todos los datos del producto
         /// </summary>

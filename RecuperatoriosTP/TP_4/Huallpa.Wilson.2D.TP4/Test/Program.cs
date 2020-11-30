@@ -19,8 +19,8 @@ namespace Test
             Thread  v_01= new Thread(Inventario.Cajero_01 );
             Thread  v_02= new Thread(Inventario.Cajero_02 );    
             
-            ProductoNoPerecedero miProd1 = new ProductoNoPerecedero("escoba", 14 , 32, 22, Producto.ETipo.limpieza);
-            ProductoNoPerecedero miProd2 = new ProductoNoPerecedero("vino", 15 , 70, 32, Producto.ETipo.bebidas);
+            ProductoNoPerecedero miProd1 = new ProductoNoPerecedero("trapo", 24 , 22, 22, Producto.ETipo.limpieza);
+          
 
 
             try
@@ -43,15 +43,7 @@ namespace Test
                 {
                     Console.WriteLine("Producto exitente se modifico la candidad {0}", miProd1.Descripcion);
                 }
-                if (Inventario.ListaProductos + miProd2)
-                {
-                    Console.WriteLine("se agrego bueno producto ala tabla de datos: {0}", miProd2.Descripcion);
-                }
-                else
-                {
-                    Console.WriteLine("Producto exitente se modifico la candidad {0}", miProd2.Descripcion);
-                }
-
+              
                 Console.WriteLine($"La cantidad de productos traidos de la base es {Inventario.ListaProductos.Count} y son los siguientes: \n");
 
                 Console.WriteLine(Inventario.ListaProductos.MostrarListaProducto());
@@ -91,6 +83,7 @@ namespace Test
             
             }
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Presione una tecla para continuar...");
             Console.ReadKey();
             Console.Clear();
@@ -123,9 +116,7 @@ namespace Test
             try
             {
                 string ticke = Venta.Leer("_01");
-                Console.WriteLine(ticke
-                    );
-
+                Console.WriteLine(ticke);
             }
             catch (Exception ex)
             {

@@ -16,3 +16,12 @@ C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj
 C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.dll
 C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\bin\Debug\Archivos.dll
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.dll
+C:\Users\Wilson\Desktop\Recuperatorio\TP_4\Huallpa.Wilson.2D.TP4\Archivos\obj\Debug\Archivos.pdb

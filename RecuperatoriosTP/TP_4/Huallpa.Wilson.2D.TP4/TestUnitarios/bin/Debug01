@@ -22,3 +22,15 @@ Descripcion: trapo Precio: $ 30,00
 Monto total: $ 160,00
 *******************************************
 
+*******************************************
+****************FACTURA: 01****************
+*******************************************
+Enpresa::MiNegocio
+Fecha:: 11/30/2020 Hora:: 05:58
+Descripcion: leche Precio: $ 70,00
+Descripcion: azucar Precio: $ 30,00
+Descripcion: escoba Precio: $ 30,00
+Descripcion: trapo Precio: $ 30,00
+Monto total: $ 160,00
+*******************************************
+

@@ -9,6 +9,7 @@ namespace System.Collections.Generic
 {
     public static class ListExtension
     {
+        #region Metodos
         /// <summary>
         /// Muestra un lista de todos lo producto cargados.
         /// </summary>
@@ -73,6 +74,6 @@ namespace System.Collections.Generic
             sb.AppendLine(asterisquitos);
             return sb.ToString();
         }
-
+        #endregion
     }
 }
