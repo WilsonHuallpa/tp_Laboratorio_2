@@ -1,0 +1,6 @@
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\obj\Debug\ManejoExcepciones.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\obj\Debug\ManejoExcepciones.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\obj\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\ManejoExcepciones\obj\Debug\ManejoExcepciones.pdb

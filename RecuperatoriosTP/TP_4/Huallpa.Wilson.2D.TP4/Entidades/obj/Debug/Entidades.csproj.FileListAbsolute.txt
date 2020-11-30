@@ -1,0 +1,20 @@
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Archivos.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\Archivos.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CopyComplete

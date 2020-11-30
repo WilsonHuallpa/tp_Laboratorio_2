@@ -1,0 +1,35 @@
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmStock.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVentas.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProducto.resources
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProducto.resources
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Entidades.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\ManejoExcepciones.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Archivos.dll
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Entidades.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\ManejoExcepciones.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\bin\Debug\Archivos.pdb
+C:\Users\Wilson\Desktop\RecuperatoriosTP\TP_4\Huallpa.Wilson.2D.TP4\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
